@@ -1,0 +1,3 @@
+/Users/davidgaurg/Documents/C++/QuizGame/cmake-build-debug/CMakeFiles/QuizGame.dir
+/Users/davidgaurg/Documents/C++/QuizGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/davidgaurg/Documents/C++/QuizGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
