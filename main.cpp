@@ -13,17 +13,19 @@ int main() {
 }
 
 void questions() {
-    std::string questions[5] = {"What is the capital of Georgia?",
+    std::string questions[6] = {"What is the capital of Georgia?",
                                 "What is the capital of Russia?",
                                 "What is the capital of Ukraine?",
                                 "What is the capital of USA?",
-                                "What is the capital of France?"};
+                                "What is the capital of France?",
+                                "What is the capital of Mexico"};
 
-    std::string answers[5][4] = {"a.Nairobi" , "b.Tbilisi", "c.Mexico", "d.Istanbul",
+    std::string answers[6][4] = {"a.Nairobi" , "b.Tbilisi", "c.Mexico", "d.Istanbul",
                                  "a.New York", "b.Berlin","c.Moscow","d.Bogota",
                                  "a.Washington", "b.London", "c.Denver", "d.Kiev",
                                  "a.Los Angeles","b.New York", "c.Washington","d.Tokyo",
-                                 "a.Rome","b.Moscow","c.Paris","d.London"};
+                                 "a.Rome","b.Moscow","c.Paris","d.London",
+                                 "a. New York", "b. Mexico", "c. Kiev", "d. Toronto"};
 
     for (int i = 0; i < sizeof(questions) / sizeof(questions[i]); i++) {
         std::cout << i+1 << '.' << questions [i] << std::endl;
@@ -37,7 +39,7 @@ void questions() {
 
 void answers(){
     std::vector<std::string> wrongAnswers;
-    char answers[] = {'b','c','d','c','c'};
+    char answers[] = {'b','c','d','c','c', 'b'};
     char userChoice;
     int points = 0;
     for (int i = 0; i < sizeof(answers)/ sizeof(answers[0]); ++i) {
